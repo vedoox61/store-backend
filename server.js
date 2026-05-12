@@ -16,6 +16,6 @@ app.get('/', (req, res) => {
     res.json({ message: '✅ Brahim Store API is running!' });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 Server running on port ${PORT}`);
 });
